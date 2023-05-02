@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color:darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    display: grid;
+    padding: 15px;
+    background-color: white;
+    border-radius: 30px;
+    /* width: 400px; */
+
+}
+button{
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 26px;
+    outline: none;
+    border: none;
+    margin: 5px;
+    background-color:rgb(207, 206, 206);
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+button:hover{
+    color: white;
+    background-color: #3F0071;
+    border-radius: 26px;
+}
+.text{
+    margin: 20px 0;
+    height: 80px;
+    text-align: right;
+    font-size: 36px;
+    padding: 20px;
+    border-radius: 26px;
+    width: 330px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    color: black;
+    background-color: whitesmoke;
+}
+div{
+    /* width: 100%; */
+    margin:0 auto;
+}
+.equal{
+    width: 140px;
+    background-color: cadetblue;
+    color: white;
+}
+.equal:hover{
+    background-color: rgb(85, 129, 131);
+    color: white;
+}
+.mc{
+    width: 140px;
+}
+.clear{
+    background-color: red;
+    color: white;
+}
+.clear:hover{
+    background-color: rgb(202, 36, 36);
+}
+@media only screen and (max-width: 400px){
+    button{
+        width: 50px;
+        height: 50px;
+        padding: 15px;
+        text-align: center;
+        border-radius: 26px;
+        outline: none;
+        border: none;
+        margin: 5px;
+        background-color:rgb(207, 206, 206);
+        color: black;
+        cursor: pointer;
+        font-size: 16px;
+        text-align: center;
+        margin-left: 5px;
+    }
+    .equal{
+        width: 100px;
+        background-color: cadetblue;
+        color: white;
+    }
+    .mc{
+        width: 110px;
+    }
+    .text{
+        font-size: 16px;
+        width: 280px;
+    }
+}
+
